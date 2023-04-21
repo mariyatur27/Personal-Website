@@ -10,12 +10,14 @@ export default function Navbar() {
     document.getElementById('slide-menu').style.display = 'none';
   }
 
-  var links = document.getElementsByClassName('mobile-menu-link');
-  for (var i = 0; i < links.length; i++){
-    links[i].id = "ele-".concat(i);
-    document.getElementById(links[i].id).addEventListener('click', function(){
-      document.getElementById('slide-menu').style.display = 'none';
-    })
+  window.onload = function(){
+    var links = document.getElementsByClassName('mobile-menu-text');
+    for (var i = 0; i < links.length; i++){
+      links[i].id = "ele-".concat(i);
+      document.getElementById(links[i].id).addEventListener('click', function(){
+        hideMenu();
+      })
+    }
   }
 
   return (
@@ -32,11 +34,11 @@ export default function Navbar() {
             <img src='/assets/menu-icon.png' className='menu-icon' onClick={showMenu}/>
         </div>
         <div id='slide-menu'>
-          <a href='/#about' className='mobile-menu-link'><p className=''>About</p></a>
-          <a href='/#coding' className='mobile-menu-link'><p className=''>Coding</p></a>
-          <a href='/#projects' className='mobile-menu-link'><p className=''>Projects</p></a>
-          <a href='/blog' className='mobile-menu-link'><p className=''>Blog</p></a>
-          <a href='/#other' className='mobile-menu-link'><p className=''>Other</p></a>
+          <a href='/#about' className='mobile-menu-link'><p className='mobile-menu-text'>About</p></a>
+          <a href='/#coding' className='mobile-menu-link'><p className='mobile-menu-text'>Coding</p></a>
+          <a href='/#projects' className='mobile-menu-link'><p className='mobile-menu-text'>Projects</p></a>
+          <a href='/blog' className='mobile-menu-link'><p className='mobile-menu-text'>Blog</p></a>
+          <a href='/#other' className='mobile-menu-link'><p className='mobile-menu-text'>Other</p></a>
           <p id='close-btn' onClick={hideMenu}>x</p>
         </div>
     </section>
