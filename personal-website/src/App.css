@@ -1,0 +1,407 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Custom Styles */
+section#navabar {
+  display: flex;
+  padding: 0.5% 0%;
+  background: #ffffff;
+  position: fixed;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  justify-content: space-between;
+  margin: 0;
+  box-shadow: 0 4px 14px 0 rgba(0,0,0,.15);
+}
+.container-1 {
+  padding-left: 5%;
+}
+.container-2 {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
+}
+#slide-menu{
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body{
+  margin: 0;
+}
+p.navbar-comp {
+  font-size: larger;
+}
+p.primary-comp {
+  font-size: large;
+  font-weight: 900;
+}
+.container-2 a {
+  margin-left: 20%;
+}
+.container-2 a:hover{
+  text-decoration: underline;
+  font-weight: 600;
+  font-style: italic;
+}
+section#hero {
+  background: url(https://images.unsplash.com/photo-1663004536868-1658c44ffb12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+  width: 100%;
+  padding-top: 25%;
+  padding-bottom: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+div#main-content {
+  text-align: left;
+  padding-left: 5%;
+  font-size: 55px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+.hide{
+  display: none;
+}
+.glued{
+  display: flex;
+}
+.container{
+  width: 50%;
+  margin-top: 4%;
+}
+section#about , section#coding , section#projects , section#other , section#footer , section#blog{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+section#blogPage {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 27%;
+  padding-top: 30%;
+}
+.section-title{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  text-align: left;
+}
+.container p {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-size: larger;
+}
+img.about-img {
+  width: 72%;
+  height: 66%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.social-media-container {
+  display: flex;
+  margin-top: 8%;
+  justify-content: center;
+}
+img.icon-img {
+  width: 7%;
+  object-fit: cover;
+}
+button#primary-btn {
+  border: 1px solid black;
+  border-radius: 33px;
+  background: transparent;
+  padding: 2% 8%;
+  margin-top: 4%;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-size: larger;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+button#primary-btn:hover{
+  background: black;
+  color: white;
+}
+button.tertiary-btn {
+  border: 1px solid black;
+  border-radius: 33px;
+  background: transparent;
+  padding: 3% 4%;
+  margin-top: 0%;
+  font-size: small;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+button.secondary-btn {
+  border: 1px solid black;
+  border-radius: 33px;
+  background: transparent;
+  padding: 1.2% 4%;
+  margin-top: 0%;
+  font-size: small;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+button.secondary-btn:hover , button.tertiary-btn:hover{
+  background-color: black;
+  color: white;
+}
+.project-cont-2 {
+  width: 70%;
+  text-align: left;
+  padding-left: 3%;
+}
+.project-cont-1 {
+  width: 30%;
+}
+img.project-img {
+  width: 100%;
+  border-radius: 15px;
+}
+.project-box {
+  display: flex;
+  margin-bottom: 2%;
+  padding: 2%;
+  border-radius: 18px;
+  border-style: dashed;
+  background: none;
+  border-color: #bababa;
+}
+.project-cont-2 h3{
+  font-family: 'Poppins', sans-serif;
+}
+.project-cont-2 p{
+  font-family: 'Poppins', sans-serif;
+  font-size: smaller;
+}
+img.blog-img {
+  width: 7%;
+  margin-bottom: 2%;
+  margin-top: 6%;
+}
+.blog-container , .box h4 , #footer h5 , #blogPage h5{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+.box img {
+  width: 3%;
+  height: fit-content;
+  padding-right: 3%;
+  margin-top: 1.7%;
+}
+.box{
+  display: flex;
+}
+.box a:hover{
+  text-decoration: underline;
+}
+section#footer {
+  margin-bottom: 0%;
+}
+html{
+  scroll-behavior: smooth;
+}
+.wordflow-ele{
+  display: none;
+  background-color: white;
+  padding-left: 3.5%;
+}
+.wordflow-ele.active{
+  display: block;
+}
+.project-btn-link{
+  width: 32%;
+  margin-right: 2%;
+}
+a.resume-btn {
+  margin-left: 20%;
+}
+.menu-icon{
+  display: none;
+}
+
+/* Styles for Mobiles */
+@media only screen and (max-width: 600px) {
+  .glued{
+    display: block;
+  }
+  #slide-menu{
+    display: block;
+  }
+  .wordflow-ele{
+    padding-left: 0%;
+    width: 85%
+  }
+  section#hero{
+    padding-top: 67%;
+    padding-bottom: 100%;
+  }
+  div#main-content{
+    font-size: 40px;
+    padding-left: 4%;
+  }
+  .container {
+    width: 100%;
+    margin-top: 15%;
+  }
+  section#about, section#coding, section#projects, section#other, section#footer, section#blog {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+    margin-bottom: 5%;
+  }
+  .resume-btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+  }
+  img.about-img {
+    width: 300px;
+    height: 300px;
+  }
+  .project-box{
+    display: block;
+    margin-bottom: 6%;
+    padding: 5%;
+  }
+  .project-cont-1 {
+    width: 100%;
+  }
+  .project-cont-2 {
+    width: 100%;
+    padding-left: 0%;
+  }
+  button.tertiary-btn{
+    margin-bottom: 3%;
+  }
+  img.blog-img {
+    width: 15%;
+    margin-top: 20%;
+  }
+  .box img {
+    width: 10%;
+    padding-right: 3%;
+    margin-top: 4.7%;
+  }
+  .menu-icon {
+    display: block;
+    width: 15%;
+    height: 40%;
+    padding-top: 10%;
+    cursor: pointer;
+  }
+  .container-2 a {
+    display: none;
+  }
+  .container-2 {
+    width: 40%;
+  }
+  a.resume-btn {
+    margin-left: 0%;
+  }
+  div#slide-menu {
+    position: absolute;
+    background: white;
+    display: none;
+    padding: 10%;
+    width: 82%;
+    line-height: 5;
+    padding-bottom: 38%;
+    font-size: larger;
+    overflow-x: hidden;
+    transition: all .5s ease-in-out;
+  }
+  p#close-btn {
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    cursor: pointer;
+  }
+  .mobile-menu-link p:hover{
+    font-weight: 900;
+    text-decoration: underline;
+    font-style: italic;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .container-2 a {
+    margin-left: 10%;
+  }
+  #slide-menu{
+    display: none;
+  }
+  p.navbar-comp {
+    font-size: medium;
+  }
+  img.about-img {
+    width: 200px;
+    height: 200px;
+  }
+  .container p {
+    font-size: smaller;
+  }
+  button.tertiary-btn{
+    font-size: xx-small;
+  }
+  .project-btn-link {
+    margin-right: 0%;
+  }
+  .project-btn-link {
+    width: 47%;
+  }
+  .box img {
+    width: 7%;
+    margin-top: 3.7%;
+  }
+}
+@media only screen and (min-width: 1100px){
+  button.tertiary-btn {
+    padding: 1% 2.5%;
+  }
+}
