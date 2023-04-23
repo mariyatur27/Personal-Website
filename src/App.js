@@ -8,7 +8,7 @@ import Blog from './components/blog';
 import Other from './components/other';
 import React from 'react';
 import BlogPage from './components/blogPage';
-import Footer from './footer';
+import Footer from './components/footer';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
