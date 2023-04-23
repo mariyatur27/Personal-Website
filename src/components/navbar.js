@@ -1,4 +1,5 @@
 import React from 'react'
+// import navbar from '../../public/assets/menu-icon.png'
 
 export default function Navbar() {
 
@@ -31,7 +32,7 @@ export default function Navbar() {
             <a href='/#projects'><p className='navbar-comp'>Projects</p></a>
             <a href='/blog'><p className='navbar-comp'>Blog</p></a>
             <a href='/#other'><p className='navbar-comp'>Other</p></a>
-            <img src='/assets/menu-icon.png' className='menu-icon' onClick={showMenu}/>
+            <img src={`${process.env.PUBLIC_URL}/assets/menu-icon.png`} className='menu-icon' onClick={showMenu}/>
         </div>
         <div id='slide-menu'>
           <a href='/#about' className='mobile-menu-link'><p className='mobile-menu-text'>About</p></a>

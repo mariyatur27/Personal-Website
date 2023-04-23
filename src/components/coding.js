@@ -10,7 +10,7 @@ export default function Coding() {
                 return (
                     <div className='project-box' key={key} id={key + "-project"}>
                         <div className='project-cont-1'>
-                            <img src={data.image} className='project-img' />
+                            <img src={`${process.env.PUBLIC_URL + data.image}`} className='project-img' />
                         </div>
                         <div className='project-cont-2'>
                             <h3>{data.name}</h3>
