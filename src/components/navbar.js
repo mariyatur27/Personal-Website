@@ -27,7 +27,7 @@ export default function Navbar() {
             <a href='/'><p className='primary-comp'>Mariya Turetska.</p></a>
         </div>
         <div className='container-2'>
-            <a href='/#about'><p className='navbar-comp'>About</p></a>
+            <a href={process.env.PUBLIC_URL + '/#about'}><p className='navbar-comp'>About</p></a>
             <a href='/#coding'><p className='navbar-comp'>Coding</p></a>
             <a href='/#projects'><p className='navbar-comp'>Projects</p></a>
             <a href='/blog'><p className='navbar-comp'>Blog</p></a>

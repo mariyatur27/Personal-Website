@@ -32,7 +32,7 @@ function App() {
                 </div>
               }
             />
-            <Route path='/blog'
+            <Route path={process.env.PUBLIC_URL +'/blog'}
               element={
                 <div>
                   <BlogPage />
