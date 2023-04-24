@@ -134,8 +134,8 @@ section#blogPage {
   font-size: larger;
 }
 img.about-img {
-  width: 72%;
-  height: 66%;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 50%;
 }
