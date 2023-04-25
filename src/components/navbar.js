@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <section id='navabar'>
         <div className='container-1'>
-            <a href='/'><p className='primary-comp'>Mariya Turetska.</p></a>
+            <a href={`${process.env.PUBLIC_URL}/`}><p className='primary-comp'>Mariya Turetska.</p></a>
         </div>
         <div className='container-2'>
             <a href={`${process.env.PUBLIC_URL}/#about`}><p className='navbar-comp'>About</p></a>
