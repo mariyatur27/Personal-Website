@@ -259,9 +259,6 @@ html{
   width: 32%;
   margin-right: 2%;
 }
-a.resume-btn {
-  margin-left: 20%;
-}
 .menu-icon{
   display: none;
 }
@@ -341,9 +338,6 @@ a.resume-btn {
   }
   .container-2 {
     width: 40%;
-  }
-  a.resume-btn {
-    margin-left: 0%;
   }
   div#slide-menu {
     position: absolute;
