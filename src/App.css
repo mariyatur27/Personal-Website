@@ -119,8 +119,8 @@ section#about , section#coding , section#projects , section#other , section#foot
 section#blogPage {
   margin-left: 20%;
   margin-right: 20%;
-  margin-bottom: 27%;
-  padding-top: 30%;
+  margin-bottom: 10%;
+  padding-top: 10%;
 }
 .section-title{
   font-family: 'Poppins', sans-serif;
@@ -225,7 +225,7 @@ img.blog-img {
   margin-bottom: 2%;
   margin-top: 6%;
 }
-.blog-container , .box h4 , #footer h5 , #blogPage h5{
+.blog-container , .box h4 , #footer h5 , #blogPage h5 , .blog-container-2 {
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Mono', monospace;
 }
@@ -262,6 +262,41 @@ html{
 .menu-icon{
   display: none;
 }
+h2.section-title {
+  font-size: xx-large;
+  margin-bottom: 10%;
+}
+.general-info {
+  display: flex;
+  justify-content: space-between;
+}
+.author-info {
+  display: flex;
+  justify-content: flex-end;
+}
+.blog-container {
+  border-bottom: 2px solid #a7a7a7;
+  border-bottom-style: dashed;
+}
+.sub-section h2{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 5%;
+}
+.sub-section p{
+  font-family: 'Poppins', sans-serif;
+  line-height: 2.5;
+}
+.blog-container h1:hover{
+  text-decoration: underline;
+  background: yellow;
+  width: fit-content;
+}
+.box h4:hover{
+  background: yellow;
+  width: fit-content;
+}
+
 
 /* Styles for Mobiles */
 @media only screen and (max-width: 600px) {
