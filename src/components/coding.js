@@ -17,13 +17,18 @@ export default function Coding() {
                             <p>{data.description}</p>
                             <div className='glued-2'>
                                 <a href={data.github} target='_blank' className='project-btn-link'><button className='tertiary-btn'>Open Github Repository</button></a>
-                                <a href={data.website} target='_blank' className='project-btn-link'><button className='tertiary-btn'>See It Live</button></a>
+
+                                {data.website && (
+                                    <a href={data.website} target='_blank' className='project-btn-link'><button className='tertiary-btn'>See It Live</button></a>
+                                )}
+
                             </div>
                         </div>
                     </div>
                 )
             })}
         </div>
+        <a className='resume-btn' href='https://github.com/mariyatur27' target='_blank'><button id='secondary-btn'>View More Projects</button></a>
     </section>
   )
 }

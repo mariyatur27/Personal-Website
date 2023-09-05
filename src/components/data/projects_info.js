@@ -1,5 +1,23 @@
 export const projects_info = [
     {
+        "name": "Task Organizer",
+        "description": "The Node.js Task Organizer is a web application that enables users to efficiently manage their tasks. This application is built using Node.js, Express.js, and utilizes a MongoDB database for data storage. Users can sign up for an account, log in, and start organizing their tasks in a user-friendly interface.",
+        "github": "https://github.com/mariyatur27/Task-Organizer-",
+        "image": "/assets/project7.png"
+    },
+    {
+        "name": "AI Chat",
+        "description": "The AI Chat Application is a web-based tool that utilizes advanced natural language processing and machine learning techniques to provide interactive and dynamic conversations with an AI-powered virtual assistant. It enables users to ask questions, seek information, and engage in discussions with an AI model, generating responses that emulate human-like communication.",
+        "github": "https://github.com/mariyatur27/AI-Chat",
+        "image": "/assets/project8.png"
+    },
+    {
+        "name": "Agora",
+        "description": "Agora is a Node.js application that utilizes various AI APIs, including Cohere, to recommend artists based on the mood of the text that the user is reading. This application aims to enhance user engagement by providing music recommendations that align with the emotional tone of the content they are consuming.",
+        "github": "https://github.com/mariyatur27/Agora",
+        "image": "/assets/project10.png"
+    },
+    {
         "name": "WCI Extracurriculars Website",
         "description": "A web application containing the school's clubs, athletic teams and music/arts programs was built in HTML, CSS, JavaScript and JSON. Databases in JSON were used to store the data displayed on the website.",
         "github": "https://github.com/mariyatur27/WCI-Extracurricular-Website",
@@ -14,32 +32,11 @@ export const projects_info = [
         "website": "https://adam-alpert.com/"
     },
     {
-        "name": "HomeworkHub",
-        "description": "I built a web application for a volunteer tutoring organization which displays the organization's services, links to where the organization is involved around the community, and enables students to register for tutoring. It was built from  a Bootstrap template in HTML, CSS and JavaScript.",
-        "github": "https://github.com/mariyatur27/Evergreen-Website/blob/main/the_evergreen_website/src/public/data/team.js",
-        "image": "/assets/project3.png",
-        "website": "https://homeworkhubtutoring.org/"
-    },
-    {
         "name": "Nikos Vintage Store",
         "description": "I built an e-commerce platform with fully functioning checkout page in React, using Stripe and Commerce.JS",
         "github": "https://github.com/mariyatur27/Nikos-Store",
         "image": "/assets/project1.png",
         "website": "https://www.nikos2020incvintage.com/"
-    },
-    {
-        "name": "Evergreen Investment",
-        "description": "The website was fully developed in React.js for an investment firm. Databases were used to store repetitive content more efficiently in arrays of objects, so that it could be simply pulled and mapped later. Animations, such as AOS were used to create a more interactive user experience.",
-        "github": "https://github.com/mariyatur27/Evergreen-Website",
-        "image": "/assets/project5.png",
-        "website": "https://www.evergreenwealthpartners.com/"
-    },
-    {
-        "name": "Canagro Foods",
-        "description": "I built a web application for a business that was involved with trade and shipping. The website was developed from a Bootstrap template, in JS vanilla, CSS and HTML. A combination of DOM algorithms were used to develop an efficient search bar and filters, that help display the company's products.",
-        "github": "https://github.com/mariyatur27/Canagro-Project",
-        "image": "/assets/project6.png",
-        "website": "https://canagro.ca/"
     }
 ]
 

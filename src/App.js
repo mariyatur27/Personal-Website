@@ -10,6 +10,8 @@ import React from 'react';
 import BlogPage from './components/blogPage';
 import Footer from './components/footer';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { blog_data } from './components/data/blog_data';
+import ArticlePage from './components/articlePage';
 
 function App() {
   require('react-dom');
@@ -39,6 +41,23 @@ function App() {
                 </div>
               }
             />
+            {blog_data.map((data, key) => {
+              return(
+                <Route path={`/blog/${data.page_name}`}
+                  element={
+                    <div>
+                      <ArticlePage 
+                        articleName={data.name}
+                        articleDate={data.date}
+                        articleLength={data.length}
+                        articleContent={data.sections}
+                      />
+                      <Other />
+                    </div>
+                  }
+                />
+              )
+            })}
           </Routes>
         </Router>
       <Footer />
