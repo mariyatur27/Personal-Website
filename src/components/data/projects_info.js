@@ -1,42 +1,45 @@
 export const projects_info = [
     {
-        "name": "Task Organizer",
-        "description": "The Node.js Task Organizer is a web application that enables users to efficiently manage their tasks. This application is built using Node.js, Express.js, and utilizes a MongoDB database for data storage. Users can sign up for an account, log in, and start organizing their tasks in a user-friendly interface.",
-        "github": "https://github.com/mariyatur27/Task-Organizer-",
-        "image": "/assets/project7.png"
+        "name": "Woof - Animal Reporting App",
+        "description": "I’ve built an MVP for an animal-reporting app that lets people quickly report lost, found, or injured animals, share photos and locations, and help local shelters and rescue organizations respond faster. I’m planning to apply to Velocity for support so I can keep developing the platform and scale its impact in the community",
+        "github": "https://github.com/mariyatur27/Animal-Reporting-App",
+        "image": "/assets/project12.png",
+        "tools": ["supabase", "reactNative", "googleMaps", "expoGo"]
+    },
+    {
+        "name": "Linguini - A fun word game with friends 🧑‍🤝‍🧑",
+        "description": "Linguini is a daily Wordle-style word game where players try to reach a target character count using the fewest categories possible. Each day, everyone receives the same sequence of categories and must submit the longest word they can think of for each category. Players can create accounts, play with friends in groups, and compare results, making it a shared daily challenge built around strategy and vocabulary.",
+        "github": "https://github.com/BalajiLeninrajan/linguini",
+        "image": "/assets/project11.png",
+        "tools": ["nodeJs", "neon", "postgreSql", "python", "typescript"]
+    },
+     {
+        "name": "Agora",
+        "description": "Agora is a Node.js application that utilizes various AI APIs, including Cohere, to recommend artists based on the mood of the text that the user is reading. This application aims to enhance user engagement by providing music recommendations that align with the emotional tone of the content they are consuming.",
+        "github": "https://github.com/mariyatur27/Agora",
+        "image": "/assets/project10.png",
+        "tools": ["cohere", "nodeJs", "spotify", "openAi"]
     },
     {
         "name": "AI Chat",
         "description": "The AI Chat Application is a web-based tool that utilizes advanced natural language processing and machine learning techniques to provide interactive and dynamic conversations with an AI-powered virtual assistant. It enables users to ask questions, seek information, and engage in discussions with an AI model, generating responses that emulate human-like communication.",
         "github": "https://github.com/mariyatur27/AI-Chat",
-        "image": "/assets/project8.png"
+        "image": "/assets/project8.png",
+        "tools": ["openAi", "react", "typescript"]
     },
     {
-        "name": "Agora",
-        "description": "Agora is a Node.js application that utilizes various AI APIs, including Cohere, to recommend artists based on the mood of the text that the user is reading. This application aims to enhance user engagement by providing music recommendations that align with the emotional tone of the content they are consuming.",
-        "github": "https://github.com/mariyatur27/Agora",
-        "image": "/assets/project10.png"
+        "name": "Task Organizer",
+        "description": "The Node.js Task Organizer is a web application that enables users to efficiently manage their tasks. This application is built using Node.js, Express.js, and utilizes a MongoDB database for data storage. Users can sign up for an account, log in, and start organizing their tasks in a user-friendly interface.",
+        "github": "https://github.com/mariyatur27/Task-Organizer-",
+        "image": "/assets/project7.png",
+        "tools": ["nodeJs", "expressJs", "mongoDb", "react"]
     },
     {
-        "name": "WCI Extracurriculars Website",
-        "description": "A web application containing the school's clubs, athletic teams and music/arts programs was built in HTML, CSS, JavaScript and JSON. Databases in JSON were used to store the data displayed on the website.",
-        "github": "https://github.com/mariyatur27/WCI-Extracurricular-Website",
-        "image": "/assets/project4.png",
-        "website": "https://mariyatur27.github.io/WCI-Extracurricular-Website/"
-    },
-    {
-        "name": "Adam Alpert's Personal Website",
-        "description": "I built a personal website for Adam Alpert, Pangea's co-founder and CEO. The website was built entirely in HTML, CSS and JS from a Bootstrap template, and was hosted on Ionos.",
-        "github": "https://github.com/mariyatur27/Adam-Alpert-s-Personal-Website",
-        "image": "/assets/project2.png",
-        "website": "https://adam-alpert.com/"
-    },
-    {
-        "name": "Nikos Vintage Store",
+        "name": "Online Store",
         "description": "I built an e-commerce platform with fully functioning checkout page in React, using Stripe and Commerce.JS",
         "github": "https://github.com/mariyatur27/Nikos-Store",
         "image": "/assets/project1.png",
-        "website": "https://www.nikos2020incvintage.com/"
+        "tools": ["stripe", "commerceJs", "typescript"]
     }
 ]
 

@@ -12,6 +12,7 @@ import Footer from './components/footer';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { blog_data } from './components/data/blog_data';
 import ArticlePage from './components/articlePage';
+import Work from './components/work';
 
 function App() {
   require('react-dom');
@@ -27,6 +28,7 @@ function App() {
                 <div>
                   <Hero />
                   <About />
+                  <Work />
                   <Coding />
                   <Projects />
                   <Blog />

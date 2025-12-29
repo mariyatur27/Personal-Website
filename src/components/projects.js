@@ -1,7 +1,10 @@
 import React from 'react'
 import { projects_info_2 } from './data/projects_info'
+import { tools } from './data/tools_icons'
 
 export default function Projects() {
+
+    
   return (
     <section id='projects' className='center-sec-seciton'>
         <h2 className='section-title'>Projects...</h2>

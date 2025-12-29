@@ -85,7 +85,7 @@ p.primary-comp {
   font-style: italic;
 }
 section#hero {
-  background: url(https://images.unsplash.com/photo-1663004536868-1658c44ffb12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+  background: url('/assets/wallpaper2.jpg');
   width: 100%;
   padding-top: 25%;
   padding-bottom: 20%;
@@ -110,7 +110,7 @@ div#main-content {
   width: 50%;
   margin-top: 4%;
 }
-section#about , section#coding , section#projects , section#other , section#footer , section#blog{
+section#about , section#coding , section#projects , section#other , section#footer , section#blog, section#work{
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 5%;
@@ -223,13 +223,14 @@ img.project-img {
   background: none;
   border-color: #bababa;
 }
-.project-cont-2 h3{
+.project-cont-2 h3 , .details-box {
   font-family: 'Poppins', sans-serif;
 }
-.project-cont-2 p{
+.project-cont-2 p , .details-box p , p.description-item {
   font-family: 'Poppins', sans-serif;
   font-size: smaller;
 }
+
 img.blog-img {
   width: 7%;
   margin-bottom: 2%;
@@ -310,6 +311,9 @@ h2.section-title {
 
 /* Styles for Mobiles */
 @media only screen and (max-width: 600px) {
+  .experience-container {
+    grid-template-columns: 1fr;
+  }
   .glued{
     display: block;
   }
@@ -443,4 +447,123 @@ h2.section-title {
   button.tertiary-btn {
     padding: 1% 2.5%;
   }
+}
+
+#tools-container {
+  display: flex;
+  justify-content: flex-start;
+  width: fit-content;
+  margin-bottom: 1rem;
+
+  .tools-icon {
+      height: 1.5rem;
+      margin-right: 1rem;
+  }
+}
+
+.experience-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+
+  .company-logo {
+    height: 3.5rem;
+    display: block; 
+    margin: 0 auto; 
+  }
+
+  .details-box{
+    padding: 2%;
+  }
+
+  .experience-box {
+    padding: 2%;
+    border-radius: 18px;
+    border-style: dashed;
+    background: none;
+    border-color: #bababa;
+    transition: all 0.35s ease;
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 16px;
+  }
+
+  .experience-box.expanded {
+    grid-column: span 2; 
+    grid-template-columns: 1fr 1fr; 
+  }
+
+  .left-side, .right-side {
+    flex: 1; 
+  }
+
+  .right-side {
+    background-color: #f5f5f59c;
+    padding: 12px;
+    border-radius: 8px;
+
+    ul{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    margin-top: 2rem;
+  }
+
+  .skill-pill{
+    border: 1px black solid;
+    padding: 0.3rem 0.8rem;
+    margin-bottom: 0.5rem;
+    border-radius: 18px;
+    width: fit-content;
+  }
+
+  .work-type {
+    background: black;
+    color: white;
+    width: fit-content;
+    padding: 0.1rem 0.3rem;
+  }
+
+  .action-btn:hover{
+    background: black;
+    color: white;
+    transition-duration: 0.5s;
+  }
+
+  .action-btn{
+    border: 1px solid black;
+    width: fit-content;
+    cursor: pointer;
+    padding: 0.1rem 0.3rem;
+  }
+
+  .actions-container{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.experience-container.expanded {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#background-btn{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 18px;
+  border: none;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-style: dashed;
 }

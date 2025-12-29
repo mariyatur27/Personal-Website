@@ -36,6 +36,7 @@ export default function Hero() {
                 <span className='wordflow-ele'>Be Fun.</span>
             </span>
         </div>
+        <button id='background-btn'>Change background :)</button>
     </section>
   )
 }
