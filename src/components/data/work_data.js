@@ -8,7 +8,7 @@ export const work_data = [
         skills: ["React", "Typescript", "AWS", "S3 Buckets", "APIs", "Splunk", "Docker", "Infrastructure", "CI/CD"], 
         description: [
             "Improved customer onboarding flows by ~45% by integrating Smarty API with existing Capital One services to implement address validation, sanitization and intelligent prefill in Typescript.",
-            "Developed a Reactfeature that improved occupation search performance by 24%, optimizing component rendering, state management and data fetching.",
+            "Developed a React feature that improved occupation search performance by 24%, optimizing component rendering, state management and data fetching.",
             "Led a cyber compliance initiative to identify and mitigate API security vulnerabilities; implemented recursive request field validation and sanitization to safeguard an external API against SQL injection.",
             "Maintained and optimized infrastructure services, including S3 buckets, Docker containers, and CI/CD deployment pipelines to ensure reliable and scalable operations."
         ]
