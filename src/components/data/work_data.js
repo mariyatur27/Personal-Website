@@ -1,7 +1,7 @@
 export const work_data = [
     {
         companyName: "Capital One",
-        companyLogo: "/assets/companies/capitalOne.png",
+        companyLogo: `${process.env.PUBLIC_URL}/assets/companies/capitalOne.png`,
         type: "internship",
         dates: ["september 2025", "december 2025"],
         position: "Software Engineer",
@@ -15,7 +15,7 @@ export const work_data = [
     },
     {
         companyName: "Royal Bank of Canada (RBC)",
-        companyLogo: "/assets/companies/rbc.png",
+        companyLogo: `${process.env.PUBLIC_URL}/assets/companies/rbc.png`,
         type: "internship",
         dates: ["january 2025", "may 2025"],
         position: "Data Engineer",
@@ -29,7 +29,7 @@ export const work_data = [
     },
     {
         companyName: "Health Network (UHN)",
-        companyLogo: "/assets/companies/uhn.png",
+        companyLogo: `${process.env.PUBLIC_URL}/assets/companies/uhn.png`,
         type: "internship",
         position: "Full-Stack Web Developer",
         dates: ["may 2024", "august 2024"],
@@ -43,7 +43,7 @@ export const work_data = [
     },
     {
         companyName: "Fearless+",
-        companyLogo: "/assets/companies/fearless.png",
+        companyLogo: `${process.env.PUBLIC_URL}/assets/companies/fearless.png`,
         type: "internship",
         position: "Junior Developer",
         dates: ["april 2022", "may 2023"],

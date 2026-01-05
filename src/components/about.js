@@ -6,7 +6,7 @@ export default function About() {
         <h2 className='section-title'>About me...</h2>
         <div className='glued'>
             <div className='container'>
-                <img src='/assets/headshot.jpg' className='about-img'/><br></br>
+                <img src={`${process.env.PUBLIC_URL}/assets/headshot.jpg`} className='about-img'/><br></br>
                 
             </div>
             <div className='container'>
