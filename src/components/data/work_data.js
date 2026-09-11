@@ -1,5 +1,20 @@
 export const work_data = [
     {
+        companyName: "Wealthsimple",
+        companyLogo: `${process.env.PUBLIC_URL}/assets/companies/wealthsimple.png`,
+        type: "internship",
+        dates: ["may 2026", "august 2026"],
+        position: "Software Engineer",
+        skills: ["Typescript", "Ruby", "APIs", "SQL", "Datadog", "Preset", "Infrastructure", "CI/CD"], 
+        description: [
+            "Contributed to the development, maintenance and production release of Custom Portfolios, a new investment product with $100M+ in direct deposits in 2 months since release.",
+            "Built and launched an E2E holdings transfer flow in TypeScript, enabling clients to move $10M+ in holdings from a self-directed trade account into custom portfolios in under 1 minute.",
+            "Designed and implemented a scheduled job in Ruby to execute  SQL queries to automatically expire transfer intents pending for 2+ weeks, significantly improving workflow reliability.",
+            "Developed investment performance experiences in TypeScript and Ruby for individual and sleeve securities across web and mobile, expanding portfolio analytics for clients.",
+            "Improved and developed client-facing features for Custom Portfolios, reducing on-call support tickets by ~30% and increasing product adoption by ~40%."
+        ]
+    },
+    {
         companyName: "Capital One",
         companyLogo: `${process.env.PUBLIC_URL}/assets/companies/capitalOne.png`,
         type: "internship",
